@@ -50,14 +50,13 @@ Once the data set loaded to Power BI Desktop, the following relationships are es
 
 ### **Features and Highlights**
 ##### Business Problem:
-MavenTech company wants to get information about performance of the managers in different aspects. The company wants to assess the peformance of the managers every quarter and find who is lagging behind and take measures to improve their performance and hence improving the performance of the company.
+Analyze and build reports around patient, encounter, and procedure data to provide KPI and operational performance reports, and to uncover deeper insights from the dataset.
 
 ##### Key Questions:
-1) Analyse the overall performane of a sales manager and his team for a particulat quarter
-2) Find the Total sales by sector, product and also the top organizations with highest sales executed.
-3) Compare the Total and Number of sales Won, Average value of the sales, Average weeks taken to close a sale and the number of sales discounted by a manager with other managers in the company
-4) Find the open opportunities of the manager and take steps to close them as soon as possible
-5) Performance of the manager across different quarters of a particular year
+•	How many patients have been admitted or readmitted over time?
+•	How long are patients staying in the hospital, on average?
+•	How much is the average cost per visit?
+•	How many procedures are covered by insurance?
 
 
 ##### Visuals Used
