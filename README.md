@@ -22,12 +22,14 @@ Procedures: This table records the details of the procedures done by different p
 
 ### **Data Set Analysis**
 Identified the attributes and metrics for the chart preparation.
-Patient’s admission is supposed to be identified by the value “inpatient” in the encounter class field of the encounter table. But there are records where the encounter class shows “Outpatient” and the there is overnight stay for these employees.
+Patient’s admission is supposed to be identified by the value “inpatient” in the encounter class field of the encounter table. But there are records where the encounter class shows “Outpatient” and there is overnight stay for these employees.
 
-
-   
 ### **Data Modeling**
-The first step is to create a date dimension table db_Date_Table in Power Query and then load the same to Power BI Desktop. The db_Date_Table has Date column whose value starts from the earliest date available in close_date column or the engage_date column whichever is the earliest.
+1. The first step is to create a date dimension table DateTable in Power Query and then load the same to Power BI Desktop. 
+2. Created AgeGroup table in Power Query. (AGEGROUP, DESCRIPTION)
+3. Created Age table in Power Query(AGE, AGEGROUP)
+4. Created EncounterClass table Power Query (CODE, ENCOUNTERCLASS, DESCRIPTION, BASE_ENCOUNTER_COST)
+5. Calculated The Length of Stay (LOS) of each encounter by adding a custom column to the encounter table. If the LOS is >=1 then it is considered as an Admission. Else it is Non admission
 
 ##### **Relationships between Tables**
 Once the data set loaded to Power BI Desktop, the following relationships are established between tables.
