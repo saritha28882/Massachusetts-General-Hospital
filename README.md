@@ -54,11 +54,10 @@ Once the data set loaded to Power BI Desktop, the following relationships are es
 Analyze and build reports around patient, encounter, and procedure data to provide KPI and operational performance reports, and to uncover deeper insights from the dataset.
 
 ##### Key Questions:
-•	How many patients have been admitted or readmitted over time?
-•	How long are patients staying in the hospital, on average?
-•	How much is the average cost per visit?
-•	How many procedures are covered by insurance?
-
+1) How many patients have been admitted or readmitted over time?
+2) How long are patients staying in the hospital, on average?
+3) How much is the average cost per visit?
+4) How many procedures are covered by insurance?
 
 ##### Visuals Used
 1) Total Sales By Manager, Average Sales, Average Weeks to Close, New Opportunities, Engaged Opportunities - (Card Visuals)
