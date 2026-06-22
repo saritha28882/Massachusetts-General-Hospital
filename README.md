@@ -36,13 +36,15 @@ Once the data set loaded to Power BI Desktop, the following relationships are es
 
 | SL No | Table1 | Table2 | Relationship | Relationship Status |
 | --- | --- | --- | --- | --- |
-| 1 | Db_Date_Table (Date) | Db_sales_pipeline (Close_Date) | One to Many | Active |
-| 2 | Db_Date_Table (Date) | Db_sales_pipeline (Engage_Date) | One to Many | Inactive |
-| 3 | db_accounts (Account) | Db_sales_pipeline (Account) | One to Many | Active |
-| 4 | db_products(Product) | Db_sales_pipeline (Product) | One to Many | Active |
-| 5 | db_salesteams (sales_agent) | Db_sales_pipeline (sales_agent) | One to Many | Active |
-
-
+| 1 | DateTable (Date) | hospital_db_encounters (START) | One to Many | Inactive |
+| 2 | DateTable (Date) | hospital_db_procedures (START) | One to Many | Active |
+| 3 | hospital_db_procedures (PATIENT) | hospital_db_patients (Id) | One to Many | Inactive |
+| 4 | AgeGroup (AGEGROUP) | Age (AGEGROUP) | One to Many | Active |
+| 5 | Age (AGE) | hospital_db_patients (Age) | One to Many | Active |
+| 6 | hospital_db_encounters (ID)    | hospital_db_procedures (ENCOUNTER) |  One to Many | Active |
+| 7 | hospital_db_patients (Id) | hospital_db_ENCOUNTERS (PATIENT) | One to Many | Active |
+| 8 | hospital_db_encounter class (Description) | hospital_db_ENCOUNTERS (Description) | One to Many | Active |
+| 8 | hospital_db_encounter (Payer) | hospital_db_payers (ID) | One to Many | Active |
    <img width="752" height="445" alt="Data Modeling" src="https://github.com/user-attachments/assets/b4f96f8a-ad50-497f-aa93-c6224ebbd74e" />
 
 
