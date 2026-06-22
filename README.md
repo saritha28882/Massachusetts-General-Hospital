@@ -20,6 +20,11 @@ patients: This table records the demographic data of the patients visiting the h
 Payers: This table records the insurance payer’s data.
 Procedures: This table records the details of the procedures done by different patients in the hospital.
 
+### **Data Set Analysis**
+Identified the attributes and metrics for the chart preparation.
+Patient’s admission is supposed to be identified by the value “inpatient” in the encounter class field of the encounter table. But there are records where the encounter class shows “Outpatient” and the there is overnight stay for these employees.
+
+
    
 ### **Data Modeling**
 The first step is to create a date dimension table db_Date_Table in Power Query and then load the same to Power BI Desktop. The db_Date_Table has Date column whose value starts from the earliest date available in close_date column or the engage_date column whichever is the earliest.
