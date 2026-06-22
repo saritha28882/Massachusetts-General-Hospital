@@ -3,8 +3,7 @@
 Massachusetts General Hospitals Patient Analysis Dashboard : A dynamic interactive dashboard built to explore patient data and analyse patient admission records, procedures performed and the insurance coverage etc.
 
 ### **Project Description** : 
-For the Maven Sales Challenge, I am playing the role of a BI Developer for MavenTech, a company that specializes in selling computer hardware to large businesses. They've been using a new CRM system to track their sales opportunities but have no visibility of the data outside of the platform.
-In an effort to become a data-driven organization, you've been asked to create an interactive dashboard that enables sales managers to track their team's quarterly performance.
+In Massachusetts General Hospitals Patient Analysis, I am playing the role of an Analytics Consultant for the Massachusetts General Hospitals. The Goal of the project is to build a high-level KPI report for the executive team, based on a subset of patient records.
 
 ### **Tech Stack**
 The key technologies used to build the dashboard are
@@ -14,7 +13,13 @@ The key technologies used to build the dashboard are
 4) Data Modeling - To establish relationships among tables
 
 ### **Data Source**
-The data contains B2B sales opportunities from a CRM database for a fictitious company that sells computer hardware, including information on accounts, products, sales teams, and sales opportunities. The data is stored in csv files.
+The data set used by the Massachusetts General Hospital includes details of the patient demographics, insurance coverage, and medical encounters & procedures.
+The database has the following tables.
+encounters: This table records the day-to-day patient encounters to the hospital which can be for different medical reasons.
+patients: This table records the demographic data of the patients visiting the hospital.
+Payers: This table records the insurance payer’s data.
+Procedures: This table records the details of the procedures done by different patients in the hospital.
+
    
 ### **Data Modeling**
 The first step is to create a date dimension table db_Date_Table in Power Query and then load the same to Power BI Desktop. The db_Date_Table has Date column whose value starts from the earliest date available in close_date column or the engage_date column whichever is the earliest.
