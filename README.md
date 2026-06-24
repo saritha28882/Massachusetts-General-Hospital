@@ -46,7 +46,8 @@ Once the data set loaded to Power BI Desktop, the following relationships are es
 | 8 | hospital_db_encounter class (Description) | hospital_db_ENCOUNTERS (Description) | One to Many | Active |
 | 8 | hospital_db_payers (ID) | hospital_db_encounter (Payer) | One to Many | Active |
   
-  <img width="1349" height="562" alt="Data Modeling" src="https://github.com/user-attachments/assets/6f0485a1-1fcc-4e36-80c9-002fb430f4dc" />
+<img width="1300" height="592" alt="Data Modeling" src="https://github.com/user-attachments/assets/8908d498-cf85-4c33-8116-f8ffc77d54ef" />
+
 
 
 ### **Features and Highlights**
