@@ -60,13 +60,14 @@ Analyze and build reports around patient, encounter, and procedure data to provi
 4) How many procedures are covered by insurance?
 
 ##### Visuals Used
-1) Total Sales By Manager, Average Sales, Average Weeks to Close, New Opportunities, Engaged Opportunities - (Card Visuals)
-2) Performance By Agent, Sales by Product, Open Opportunities (Table Visual)
-3) Total Sales By Sector, Total Sales By Product, Performance comparison measures with other managers (Clustered Bar Chart)
-4) Quarterly Opportunities for the manager (Stacked Column Chart)
-5) Total sales of the manager over a year across querters (Line Chart)
-6) Smart Narrative visual which analayses a number of visulas in the report page and derive insights from those
-
+1) Non-Admission - Total encounters, Procedure Count, Average Procedure Cost, Procedures covered by insurance - (Stacked Bar Chart)
+2) Non-Admission - Total encounters by Gender and by Age Group - (100% Stacked Bar Chart)
+3) Admission/Readmission - Count by Gender and Age Group (100% Stacked Bar Chart)
+4) Admission/Readmission - Count over Month (Stacked Column Chart)
+5) Admission/Readmission - Procedure Count Covered by Insurance, Average Procedure Cost, Total Procedure Count, Total Encounters (Stacked Bar Chart)
+6) Procedure - Count Of Proceudres by Gender and Age Group (Donut Chart)
+7) Procedure - Multi Row Card for KPI about Procedures
+8) Procedures - Summary of Procedures according to Procedure Type (Table Visual)
 
 ##### Screen shots
 Selected Quarter Performance*(Maven-Sales-Analysis/Selected Quarter Performance by Manager.png)](https://github.com/saritha28882/Maven-Sales-Analysis/blob/main/Selected%20Quarter%20Performance%20by%20Manager.png)
