@@ -36,15 +36,15 @@ Once the data set loaded to Power BI Desktop, the following relationships are es
 
 | SL No | Table1 | Table2 | Relationship | Relationship Status |
 | --- | --- | --- | --- | --- |
-| 1 | DateTable (Date) | hospital_db_encounters (START) | One to Many | Inactive |
-| 2 | DateTable (Date) | hospital_db_procedures (START) | One to Many | Active |
+| 1 | DateTable (Date) | hospital_db_encounters (STARTDATE) | One to Many | Inactive |
+| 2 | DateTable (Date) | hospital_db_procedures (STARTDATE) | One to Many | Inactive |
 | 3 | hospital_db_procedures (PATIENT) | hospital_db_patients (Id) | One to Many | Inactive |
 | 4 | AgeGroup (AGEGROUP) | Age (AGEGROUP) | One to Many | Active |
 | 5 | Age (AGE) | hospital_db_patients (Age) | One to Many | Active |
 | 6 | hospital_db_encounters (ID)    | hospital_db_procedures (ENCOUNTER) |  One to Many | Active |
 | 7 | hospital_db_patients (Id) | hospital_db_ENCOUNTERS (PATIENT) | One to Many | Active |
 | 8 | hospital_db_encounter class (Description) | hospital_db_ENCOUNTERS (Description) | One to Many | Active |
-| 8 | hospital_db_encounter (Payer) | hospital_db_payers (ID) | One to Many | Active |
+| 8 | hospital_db_payers (ID) | hospital_db_encounter (Payer) | One to Many | Active |
   
   <img width="1349" height="562" alt="Data Modeling" src="https://github.com/user-attachments/assets/6f0485a1-1fcc-4e36-80c9-002fb430f4dc" />
 
