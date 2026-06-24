@@ -74,3 +74,5 @@ Analyze and build reports around patient, encounter, and procedure data to provi
 
 https://github.com/saritha28882/Massachusetts-General-Hospital/blob/main/Non%20Admission.png
 https://github.com/saritha28882/Massachusetts-General-Hospital/blob/main/AdmissionReadmission.png
+https://github.com/saritha28882/Massachusetts-General-Hospital/blob/main/Procedures.png
+
