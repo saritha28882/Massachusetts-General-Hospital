@@ -71,12 +71,4 @@ Analyze and build reports around patient, encounter, and procedure data to provi
 8) Procedures - Summary of Procedures according to Procedure Type (Table Visual)
 
 ##### Screen shots
-Selected Quarter Performance*(Maven-Sales-Analysis/Selected Quarter Performance by Manager.png)](https://github.com/saritha28882/Maven-Sales-Analysis/blob/main/Selected%20Quarter%20Performance%20by%20Manager.png)
 
-Selected Quarter Sales[https://github.com/saritha28882/Maven-Sales-Analysis/blob/main/Selected%20Quarter%20Sales%20by%20Manager.png]
-
-Performance By Team[[Maven-Sales-Analysis/Performance by Team.png at main · saritha28882/Maven-Sales-Analysis](https://github.com/saritha28882/Maven-Sales-Analysis/blob/main/Performance%20by%20Team.png)]
-
-Open Opportunities of Manager[[Maven-Sales-Analysis/Open Opportunities of Manager.png at main · saritha28882/Maven-Sales-Analysis](https://github.com/saritha28882/Maven-Sales-Analysis/blob/main/Open%20Opportunities%20of%20Manager.png)]
-
-Performance Over Time[[Maven-Sales-Analysis/Performance over time.png at main · saritha28882/Maven-Sales-Analysis](https://github.com/sarith
